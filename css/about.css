@@ -1,0 +1,52 @@
+.section-1 {
+    background-image: url(../images/about/about.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.section-2 {
+    background-color: #fff;
+    padding: 15%;
+}
+
+.s2-content {
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0 70px;
+    text-align: center;
+}
+
+.section-3 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.s3-head {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.s3-para {
+    font-family: 'Work Sans', sans-serif;
+    color: #494949;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.image-container {
+    width: 25%;
+    padding: 10%;
+    padding-top: 0;
+}
+
+.content {
+    width: 50%
+}
+
+.s3-image {
+    width: 400px;
+    height: 600px;
+}
