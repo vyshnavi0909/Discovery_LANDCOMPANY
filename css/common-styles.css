@@ -4,42 +4,25 @@ html {
     height: 100%;
 }
 
-.bckgrnd-video {
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    overflow: hidden;
-    z-index: -10;
-}
-
-a:hover{
-    color: #ffffff;
-}
-
-
 .overlay {
     background-color: rgba(1, 1, 1, 0.281);
-    height: 100%;
+    height: 72.5%;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 .section-1 {
     color: #ffffff;
-    color: white;
 }
-
-.section-container {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 
 .inner-container {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    height: 100%;
-    padding: 170px;
+    align-items: center;
+    padding-top: 15%;
 }
 
 .sub-heading {
@@ -59,11 +42,6 @@ a:hover{
 .s1-heading {
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 100;
-    font-size: 84px;
-}
-
-.s1-tag {
-    font-size: 57px;
 }
 
 /***** header *****/
@@ -85,24 +63,26 @@ a:hover{
 }
 
 .logo-img {
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     padding: 0 10px 0 10px;
-}
-
-.disc-text {
-    font-size: 30px;
-    font-family: 'PT Serif', serif;
-}
-
-.tag-text {
-    font-size: 11px;
-    letter-spacing: 3px;
 }
 
 .logo-text {
     display: flex;
     flex-direction: column;
+}
+
+.disc-text {
+    font-size: 26px;
+    font-family: 'PT Serif', serif;
+}
+
+.tag-text {
+    padding: 1px;
+    padding-top: 0;
+    font-size: 9px;
+    letter-spacing: 2.5px;
 }
 
 /***** nav bar  *****/
@@ -116,47 +96,43 @@ a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .nav-a {
     cursor: pointer;
 }
 
-.nav-a:visited, .nav-a:link {
+.nav-a:visited,
+.nav-a:link {
     color: #ffffff;
     text-decoration: none;
 }
 
 .nav-item {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
 }
-
 
 .nav-list:hover {
     text-decoration: underline;
 }
 
-
 /***** dropdown *****/
 
 .drpdwn-a {
     color: white;
-    /* padding: 12px 16px; */
     padding: 0;
     text-decoration: none;
     display: block;
 }
 
 .a-div {
-    padding: 10px 50px;
+    padding: 10px 30px;
     margin: 10px;
 }
 
-
-
 .drpdwn-a:hover {
-    border-bottom-style: solid ;
+    border-bottom-style: solid;
     border-bottom-width: 1px;
     width: fit-content;
     padding-bottom: 2px;
@@ -215,10 +191,73 @@ a:hover{
     color: #ffffff;
 }
 
-
 .para {
     font-family: 'Work Sans', sans-serif;
     color: #494949;
     font-weight: 500;
     letter-spacing: 0.5px;
+}
+
+
+@media only screen and (max-width: 999px) {
+
+    .section-container {
+        padding: auto;
+    }
+
+    .bckgrnd-video {
+        width: 100%;
+        position: absolute;
+        z-index: -10;
+    }
+    .s1-heading {
+        font-size: 60px;
+    }
+
+    .s1-tag {
+        font-size: 40px;
+    }
+
+    .footer {
+        line-height: 27px;
+        font-size: 14px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .git-content {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (min-width: 999px) {
+    .bckgrnd-video {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -10;
+    }
+
+    .section-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .s1-heading {
+        font-size: 84px;
+    }
+
+    .s1-tag {
+        font-size: 57px;
+    }
+
+    
+
+}
+
+@media only screen and (min-width:1250px) {
+
+    .nav-ul {
+        font-size: 17px;
+    }
 }
