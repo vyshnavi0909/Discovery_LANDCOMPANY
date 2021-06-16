@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <link rel="stylesheet" href="../css/common-styles.css">
     <link rel="stylesheet" href="../css/home.css">
@@ -16,6 +17,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap" rel="stylesheet">
     <title>Discovery Land Company</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
 </head>
 
 <body>
@@ -28,52 +31,9 @@
         </video>
         <div class="overlay">
             <div class="section-container">
-                <header class="header"> 
-                    <div class="">
-                        <a class="nav-a main-logo" href="./home.html">
-                            <img src="../images/logo.svg" class="logo-img">
-                            <div class="logo-text">
-                                <span class="disc-text">Discovery</span>
-                                <span class="tag-text">LAND COMPANY</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="nav-bar">
-                        <ul class="nav-ul">
-                            <li class="nav-item"><a class="nav-a nav-list" href="./about.html">About DLC</a></li>
-                            <li class="nav-item"><a class="nav-a nav-list" href="./ourWorlds.html">Our Worlds</a></li>
-                            <li class="nav-item"><a class="nav-a nav-list" href="./experiences.html">Experiences</a></li>
-                            <li class="nav-item"><a class="nav-a nav-list" href="./gallery.html">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-a nav-list" href="./press.html">Press</a></li>
-                            <li class="nav-item">
+                <!-- header -->
+                <header class="header" id="header-part"></header>
 
-                                <div class="dropdown">
-                                    <a href="javascript:void(0);" onclick="myFunction()" class="drpdwn-btn"><img
-                                            class="menu-btn" src="../images/menu-bar.jpeg"></a>
-                                    <div id="menu" class="menu-content">
-                                        <div class="a-div">
-                                            <a class="drpdwn-a" href="./magazine.html">Magazine</a>
-                                        </div>
-                                        <div class="a-div">
-                                            <a class="drpdwn-a" href="./company.html">Company</a>
-                                        </div>
-                                        <div class="a-div">
-                                            <a class="drpdwn-a" href="./foundation.html">Foundation</a>
-                                        </div>
-                                        <div class="a-div">
-                                            <a class="drpdwn-a" href="./careers">Careers</a>
-                                        </div>
-                                        <div class="a-div">
-                                            <a class="drpdwn-a" href="./contact.html">Contact</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </li>
-                        </ul>
-                    </div>
-                </header>
                 <div class="inner-container">
                     <h1 class="sub-heading s1-heading">
                         Discover
@@ -130,9 +90,36 @@
 
                 </div>
             </div>
-            <div id="s3-images" onscroll="scrollingFunc()">
-                <div class="img-section-container">
+            <div id="s3-images">
+                <div class="inner-images" onscroll="scrollingFunc()">
                     <img class="s3-img" src="../images/home/image-3.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-6.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-21.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-20.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-13.jpeg" alt="">
+                    <img class="s3-img" src="../images/home/image-25.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-17.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-7.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-10.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-14.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-4.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-16.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-18.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-8.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-24.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-12.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-5.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-23.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-9.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-22.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-15.jpeg" alt="">
+                    <img class="s3-img" src="../images/home/image-27.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-26.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-11.jpg" alt="">
+                    <img class="s3-img" src="../images/home/image-19.jpg" alt="">
+
+                    <!-- <div class="img-section-container">
+
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Baker's Bay</h1>
                         <p class="heading-tag s3-tag">Great Guana Cay, Bahamas</p>
@@ -141,199 +128,195 @@
                 </div>
 
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-6.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Hideaway</h1>
                         <p class="heading-tag s3-tag">La Quinta, Califonia</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-21.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Mountaintop</h1>
                         <p class="heading-tag s3-tag">Cashiers, North Califonia</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-20.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Mirabel</h1>
                         <p class="heading-tag s3-tag">Scottsdale, Arizona</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-13.jpeg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Kuki'o</h1>
                         <p class="heading-tag s3-tag">Kohalo, Hawaii</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-25.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Vaquero</h1>
                         <p class="heading-tag s3-tag">Westlake, Texas</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-17.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Iron Horse</h1>
                         <p class="heading-tag s3-tag">Whitefish, Montana</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-7.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">CoredeValle</h1>
                         <p class="heading-tag s3-tag">Silicon Valley, Califonia</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-10.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Estanica</h1>
                         <p class="heading-tag s3-tag">Scottsdale, Arizona</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-14.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">North Shore Preserve</h1>
                         <p class="heading-tag s3-tag">Kaua'i, Hawaii</p>
                     </div>
-
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-4.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">James Island</h1>
                         <p class="heading-tag s3-tag">Southern Gulf island, British Columbia<br>Canada</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-16.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Costa Terra</h1>
                         <p class="heading-tag s3-tag">Comporta, Portugal</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-18.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Barbuda Ocean Club</h1>
                         <p class="heading-tag s3-tag">Barbuda, West Indies</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-8.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Driftwood</h1>
                         <p class="heading-tag s3-tag">Austin, Texas</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-24.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Troubadour</h1>
                         <p class="heading-tag s3-tag">Nashvilla, Tennesssee</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-12.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Playa Grande</h1>
                         <p class="heading-tag s3-tag">Rio San Juan, Dominican Republic</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-5.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Chileno Bay</h1>
                         <p class="heading-tag s3-tag">Cabo San Lucan, Mexico</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-23.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">The Summit</h1>
                         <p class="heading-tag s3-tag">Las Vegas, Nevada</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-9.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Dune Deck</h1>
                         <p class="heading-tag s3-tag">Westhampton Beach, NY</p>
                     </div>
-
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-22.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Silo Ridge</h1>
                         <p class="heading-tag s3-tag">Amenia, NY</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-15.jpeg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Makena</h1>
                         <p class="heading-tag s3-tag">Maui, Hawaii</p>
                     </div>
-
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-26.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Yellowstone Club</h1>
                         <p class="heading-tag s3-tag">Big Sky, Montana</p>
                     </div>
-
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-11.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Gozzer Ranch</h1>
                         <p class="heading-tag s3-tag">Coeur d'Alene, Idaho</p>
                     </div>
 
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-27.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">El Dorado</h1>
                         <p class="heading-tag s3-tag">Los Cabos, Mexico</p>
                     </div>
-
                 </div>
+
                 <div class="img-section-container">
-                    <img class="s3-img" src="../images/home/image-19.jpg" alt="">
                     <div class="bottom-left">
                         <h1 class="sub-heading s3-head">Madison</h1>
                         <p class="heading-tag s3-tag">La Quinta, Califonia</p>
                     </div>
 
-                </div>
+                </div> -->
 
+                </div>
             </div>
+
         </div>
     </div>
 
@@ -348,52 +331,29 @@
             </p>
             <div class="a-section-container">
                 <div class="s4-div">
-                    <a class="s4-a-tag" href="">North America & Caribbean</a>
+                    <a class="s4-a-tag" id="norAmeCar" href="">North America & Caribbean</a>
                 </div>
                 <div class="s4-div">
-                    <a class="s4-a-tag" href="">Hawaii</a>
+                    <a class="s4-a-tag" id="hawaii" href="">Hawaii</a>
                 </div>
                 <div class="s4-div">
-                    <a class="s4-a-tag" href="">Europe</a>
+                    <a class="s4-a-tag" id="europe" href="">Europe</a>
                 </div>
+            </div>
+            <div class="link-content bg-img">
+
             </div>
 
         </div>
     </div>
 
+    <!-- footer -->
+    <footer class="section-container footer" id="footer-part"></footer>
 
-    <footer class="section-container footer">
-        <div class="logo-div">
-            <img class="logo-img" src="../images/logo.svg" alt="">
-        </div>
-        <div class="get-in-touch">
-            <ul class="footer-ul">
-                <li class="git-content">GET IN TOUCH</li>
-                <li>(480)624-5200</li>
-                <li><a class="mail" href="">mail@discoverylandco.com</a></li>
-            </ul>
-        </div>
-        <div class="ul-content">
-            <ul class="footer-ul">
-                <li>About DLC</li>
-                <li>Our Worlds</li>
-                <li>Experiences</li>
-                <li>Gallery</li>
-                <li>Press</li>
-            </ul>
-        </div>
-        <div class="drpdwn-content">
-            <ul class="footer-ul">
-                <li>Magazine</li>
-                <li>Careers</li>
-                <li>Foundation</li>
-                <li>Company</li>
-                <li>Contact</li>
-                <li>Privacy</li>
-            </ul>
-        </div>
-    </footer>
+    <!-- js files -->
     <script src="../js/home.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/footer.js"></script>
 </body>
 
 </html>

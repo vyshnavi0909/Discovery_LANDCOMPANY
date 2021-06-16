@@ -1,5 +1,6 @@
-<footer class="section-container footer">
-    <div class="logo-div">
+
+document.getElementById("footer-part").innerHTML = `
+ <div class="logo-div">
         <img class="logo-img" src="../images/logo.svg" alt="">
     </div>
     <div class="get-in-touch">
@@ -28,4 +29,4 @@
             <li>Privacy</li>
         </ul>
     </div>
-</footer>
+`;
