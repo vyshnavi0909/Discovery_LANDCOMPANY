@@ -2,22 +2,22 @@
     background-image: url(../images/about/about.jpg);
     height: 100%;
     width: 100%;
-    background-size: cover;
-
 }
 
+/* section-2 */
 .section-2 {
     background-color: #fff;
     padding: 15%;
 }
 
-.s2-content {
+.s2-para-content {
     font-size: 40px;
     font-family: 'Cormorant Garamond', serif;
     padding: 0 70px;
     text-align: center;
 }
 
+/* section-3 */
 .section-3 {
     display: flex;
     flex-flow: row wrap;
@@ -49,4 +49,68 @@
 .s3-image {
     width: 400px;
     height: 600px;
+}
+
+/* section-4 */
+.section-4 {
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.sec-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* section-6 */
+
+.section-6,
+.section-8 {
+    padding: 5% 0;
+}
+
+/* section-7 */
+.section-7,
+.section-9 {
+    width: 100%;
+}
+
+.section-10 {
+    position: relative;
+    padding-top: 5%;
+}
+
+.sec-10-img {
+    position: relative;
+    z-index: -10;
+    overflow: hidden;
+}
+
+.sec-text-center {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 9;
+    text-align: center;
+}
+
+.sec-10-a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding:10% 30%;
+}
+
+.sec-10-a:hover {
+    text-decoration: none;
+    background-color: #4949493d;
+}
+
+@media only screen and (max-width:1000px) {
+    .common-sec-img1 {
+        display: none;
+    }
 }

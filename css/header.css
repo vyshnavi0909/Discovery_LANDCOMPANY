@@ -1,0 +1,141 @@
+/***** header *****/
+
+.header {
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-logo {
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    padding: 0 10px 0 10px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.disc-text {
+    font-size: 26px;
+    font-family: 'PT Serif', serif;
+}
+
+.tag-text {
+    padding: 1px;
+    padding-top: 0;
+    font-size: 9px;
+    letter-spacing: 2.5px;
+}
+
+/***** nav bar  *****/
+
+.nav-bar {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav-a {
+    cursor: pointer;
+}
+
+.nav-a:visited,
+.nav-a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-list:hover {
+    text-decoration: underline;
+}
+
+
+/***** dropdown *****/
+
+.menu-div{
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.drpdwn-a {
+    color: white;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.a-div {
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 3rem;
+    font-weight: 200;
+}
+ 
+.drpdwn-a:hover {
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: fit-content;
+} 
+
+.drpdwn-btn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    
+}
+
+.dropdown {
+    display: block;
+}
+
+.menu-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-content {
+    display: none;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 1;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+}
+
+.menu-btn {
+    height: 40px;
+    width: 40px;
+}

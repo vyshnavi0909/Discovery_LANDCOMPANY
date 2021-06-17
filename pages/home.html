@@ -7,18 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="../css/common-styles.css">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/scroller.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/common-styles.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Cormorant+Garamond:wght@300&family=Manrope:wght@300&family=Montserrat:wght@300&family=PT+Sans&family=Poppins:wght@300&family=Work+Sans:wght@300&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Cormorant+Garamond&family=Manrope:wght@300&family=Montserrat:wght@300&family=PT+Sans&family=Poppins:wght@300&family=Work+Sans:wght@300&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap" rel="stylesheet">
+    
     <title>Discovery Land Company</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -32,9 +36,9 @@
         <div class="overlay">
             <div class="section-container">
                 <!-- header -->
-                <header class="header" id="header-part"></header>
+                <header id="header-part"></header>
 
-                <div class="inner-container">
+                <div class="inner-container" id="section-1-content">
                     <h1 class="sub-heading s1-heading">
                         Discover
                     </h1>
@@ -47,11 +51,11 @@
     </div>
     <!-- section-2 -->
     <div class="section-container section-2">
-        <div class="row content">
+        <div class="row common-content">
             <div class="col-lg-6 col-md-6 col-sm-12 section-content">
                 <div class=" s2-content">
-                    <h1 class="sub-heading s2-heading">Welcome to</h1>
-                    <p class="heading-tag s2-tag">our world</p>
+                    <h1 class="sub-heading  common-heading">Welcome to</h1>
+                    <p class="heading-tag  common-tag">our world</p>
                     <p class="para">
                         Discover the unique atmosphere of our private residential club communities. Once
                         experienced.
@@ -65,58 +69,57 @@
                         be; creating unforgettable moments, together.
                     </p>
                 </div>
-                <img class="s2-img1" src="../images/home/image-2.jpg" alt="">
+                <img class="common-sec-img1" src="../images/home/image-2.jpg" alt="">
             </div>
             <div class="col-lg-6 col-md-8 col-sm-12 section-content image">
-                <img class="s2-img" src="../images/home/image-1.jpg" alt="">
+                <img class="common-sec-img" src="../images/home/image-1.jpg" alt="">
             </div>
         </div>
 
     </div>
 
     <!-- section-3 -->
-    <div class=" section-container section-3">
-        <div class="s3-content">
-            <div class="s3-section-content">
+    <div class="  section-3 scrolling-container">
+        <div class="scroller-content">
+            <div class="scroller-section-content section-container">
                 <div class="section-content">
-                    <h1 class="sub-heading s2-heading">Explore</h1>
-                    <p class="heading-tag s2-tag">our worlds</p>
+                    <h1 class="sub-heading scroll-heading">Explore</h1>
+                    <p class="heading-tag scroll-tag">our worlds</p>
                 </div>
                 <div>
                     <button class="btn-arrow" type="button" onclick="scrollLeft()"><img class="btn-img"
                             src="../images/left-arrow.png" alt="scroll left"></button>
                     <button class="btn-arrow" type="button" onclick="scrollRight()"><img class="btn-img"
                             src="../images/right-arrow.png" alt="scroll right"></button>
-
                 </div>
             </div>
-            <div id="s3-images">
-                <div class="inner-images" onscroll="scrollingFunc()">
-                    <img class="s3-img" src="../images/home/image-3.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-6.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-21.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-20.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-13.jpeg" alt="">
-                    <img class="s3-img" src="../images/home/image-25.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-17.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-7.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-10.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-14.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-4.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-16.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-18.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-8.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-24.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-12.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-5.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-23.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-9.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-22.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-15.jpeg" alt="">
-                    <img class="s3-img" src="../images/home/image-27.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-26.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-11.jpg" alt="">
-                    <img class="s3-img" src="../images/home/image-19.jpg" alt="">
+            <div id="scrolling-images">
+                <div class="inner-images" >
+                    <img class="scroller-img" src="../images/home/image-3.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-6.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-21.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-20.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-13.jpeg" alt="">
+                    <img class="scroller-img" src="../images/home/image-25.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-17.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-7.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-10.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-14.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-4.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-16.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-18.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-8.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-24.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-12.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-5.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-23.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-9.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-22.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-15.jpeg" alt="">
+                    <img class="scroller-img" src="../images/home/image-27.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-26.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-11.jpg" alt="">
+                    <img class="scroller-img" src="../images/home/image-19.jpg" alt="">
 
                     <!-- <div class="img-section-container">
 
@@ -323,8 +326,8 @@
     <!-- section-4 -->
     <div class=" section-4 section-container ">
         <div class="section-content ">
-            <h1 class="sub-heading s2-heading">Lands of</h1>
-            <p class="heading-tag s2-tag">Discovery</p>
+            <h1 class="sub-heading  common-heading">Lands of</h1>
+            <p class="heading-tag  common-tag">Discovery</p>
             <p class="para">
                 A world away from the day-to-day. Your escape. Your haven. Your world. Explore the map below and
                 take a journey to our communities.
@@ -351,9 +354,12 @@
     <footer class="section-container footer" id="footer-part"></footer>
 
     <!-- js files -->
-    <script src="../js/home.js"></script>
+    
     <script src="../js/header.js"></script>
     <script src="../js/footer.js"></script>
+    <script src="../js/home.js"></script>
+    <!-- <script src="../js/jquery.js"></script> -->
+
 </body>
 
 </html>
