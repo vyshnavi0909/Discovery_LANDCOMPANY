@@ -44,21 +44,25 @@
     </div>
 
     <!-- section-2 -->
-    <div class="section-2">
-        <img class="s2-img" src="../images/press/northShore.jpg">
-        <div class="top-container">
-            <p class="s2-para">News</p>
-            <h1 class="sub-heading s2-head">Discovery’s newest property in Kaua’i North Shore Preserve</h1>
-            <p class="s2-para s2-p">
-                Discovery Land Company is excited to announce our 25th residential club community on the majestic North
-                Shore of Kaua’i. North Shore Preserve, a one-of-a-kind residential community, spans one thousand acres
-                at the base of the mountains in the pastoral Hanalei valley. This newly re-imagined, low-density project
-                is a secluded and peaceful island oasis with limited initial homesite and hale offerings.
-            </p>
-            <a class="sec-a" href="">
-                Read article
-            </a>
-        </div>
+    <div class="section-2" id="press-s2-content">
+    </div>
+
+    <div class="section-2-btns">
+        <img class="s2-btn" src="../images/left-arrow.png" alt="" onclick="s2leftClick()">
+        <p id="s2-pagination">1 - 4</p>
+        <img class="s2-btn" src="../images/right-arrow.png" alt="" onclick="s2rightClick()">
+    </div>
+
+    <!-- section-3 -->
+    <div class="section-3 section-container">
+        <h1 class="sub-heading s3-head">Press</h1>
+        <div id="press-s3-content"></div>
+    </div>
+
+    <div class="section-2-btns">
+        <img class="s2-btn" src="../images/left-arrow.png" alt="" onclick="leftClick()">
+        <p id="s3-pagination">1 - 12</p>
+        <img class="s2-btn" src="../images/right-arrow.png" alt="" onclick="rightClick()">
     </div>
 
     <!-- footer -->
@@ -68,6 +72,7 @@
     <script src="../js/home.js"></script>
     <script src="../js/header.js"></script>
     <script src="../js/footer.js"></script>
+    <script src="../js/press.js"></script>
 </body>
 
 </html>

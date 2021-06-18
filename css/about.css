@@ -105,6 +105,10 @@
     background-color: #4949493d;
 }
 
+.common-heading {
+    padding-bottom: 10%;
+}
+
 @media only screen and (max-width:1000px) {
     .common-sec-img1 {
         display: none;

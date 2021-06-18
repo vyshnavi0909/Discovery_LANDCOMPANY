@@ -19,3 +19,4 @@ function settingInnerHtml(item) {
 
 
 document.getElementById("ourWorld-images").innerHTML = arrayOfATags.map(settingInnerHtml).join("");
+
