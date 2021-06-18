@@ -7,7 +7,7 @@
 /* section-2 */
 .section-2 {
     background-color: #fff;
-    padding: 15%;
+    padding: 5%;
 }
 
 .s2-para-content {
@@ -31,24 +31,20 @@
 
 .s3-para {
     font-family: 'Work Sans', sans-serif;
-    color: #494949;
+    color: #1f1f1f;
     font-weight: 500;
     letter-spacing: 0.5px;
-}
-
-.image-container {
-    width: 25%;
-    padding: 10%;
-    padding-top: 0;
+    line-height: 2;
 }
 
 .content {
-    width: 50%
+    padding: 10%;
+    padding-left: 0;
 }
 
 .s3-image {
-    width: 400px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 
 /* section-4 */
