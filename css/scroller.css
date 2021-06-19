@@ -1,12 +1,12 @@
 #scrolling-images {
     overflow: hidden;
-    height: 700px;
+    height: 500px;
     position: relative;
 }
 
 .scrolling-container {
     background-color: #ffffff;
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 
 .scroll-head {

@@ -19,7 +19,7 @@ document.getElementById("header-part").innerHTML = `
         </ul>
     </div>
     <div class="dropdown">
-        <a href="javascript:void(0);" onclick="dropdownFunc()" class="drpdwn-btn">
+        <a href="javascript:void(0);" class="drpdwn-btn">
             <img class="menu-btn" src="../images/menu-bar.jpeg">
         </a>
     </div>
@@ -36,7 +36,7 @@ document.getElementById("header-part").innerHTML = `
         </a>
     </div>
     <div class="dropdown">
-        <a href="javascript:void(0);" onclick="dropdownFunc()" class="drpdwn-btn">
+        <a href="javascript:void(0);" class="drpdwn-btn">
             <img class="menu-btn" src="../images/menu-bar.jpeg">
         </a>
     </div> 
