@@ -201,6 +201,19 @@ a:hover {
         justify-content: space-between;
     }
 
+    .s1-heading {
+        font-size: 200%;
+    }
+
+    .s1-tag {
+        font-size: 160%;
+    }
+
+
+    .section-1 {
+        height: 60%;
+    }
+
     .nav-sm {
         display: none;
     }
