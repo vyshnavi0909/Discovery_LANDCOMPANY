@@ -58,7 +58,7 @@ document.getElementById("header-part").innerHTML = `
 </div>
 <div class="menu-div">
     <div class="a-div ">
-        <a id="career" class="drpdwn-a" href="./careers">Careers</a>
+        <a id="career" class="drpdwn-a" href="./career.html">Careers</a>
     </div>
 </div>
 <div class="menu-div">
