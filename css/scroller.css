@@ -6,7 +6,6 @@
 
 .scrolling-container {
     background-color: #ffffff;
-    /* padding-top: 5%; */
 }
 
 .scroll-head {
@@ -125,4 +124,11 @@
         left: 16px;
     }
 
+}
+
+@media only screen and (max-width:500px){
+    .scroller-img {
+        width: 250px;
+        height: 350px;
+    }
 }

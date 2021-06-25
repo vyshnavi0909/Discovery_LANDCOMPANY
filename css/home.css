@@ -61,7 +61,7 @@
     background-color: #161f1e;
     width: 50%;
     height: 600px;
-    z-index: 1;
+    z-index: 0;
     position: absolute;
     top: 10%;
     left: 50%;
@@ -99,7 +99,7 @@
 
 .s4-inner-image {
     width: 43%;
-    height: 90%;
+    height: 100%;
     position: absolute;
     top: -9%;
     z-index: 10;
@@ -114,11 +114,11 @@
 
 .s4-para-tag {
     padding-top: 10%;
-
+    width: 80%;
 }
 
 .icon-text {
-    font-size: 80%;
+    font-size: 12px;
     color: #6b6b6b;
     padding: 5px;
 }
@@ -138,8 +138,8 @@
 
 .s4-text {
     color: #fff;
-    font-size: 290%;
-    width: 80%;
+    font-size: 30px;
+    width: 90%;
     font-family: 'Nanum Myeongjo', serif;
 }
 
@@ -148,7 +148,8 @@
     flex-direction: row;
     color: #6b6b6b;
     font-family: 'Public Sans', sans-serif;
-
+    font-size: 14px;
+    margin-top: 40%;
 }
 
 .loca-pin {
@@ -156,8 +157,218 @@
     height: 30px;
 }
 
+/* section-5 */
 
-.s5-img {
-    width: 100%;
-    height: 800px;
+.bg-1 {
+    background-image: url(../images/home/experience.jpg);
+}
+
+.bg-2 {
+    background-image: url(../images/home/lifestyle.jpg);
+}
+
+.bg-3 {
+    background-image: url(../images/home/wellness.jpg);
+}
+
+.s5-div {
+    background-size: cover;
+    height: 700px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.s5-div p {
+    font-size: 30px;
+}
+
+.a-btn {
+    color: #fff;
+    border-radius: 100%;
+    border: 1px solid #fff ;
+    font-size: 30px;
+    padding: 0 10px 10px;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:1220px) {
+    .s4-inner-image {
+        width: 38%;
+        height: 100%;
+    }
+
+    .middle-container {
+        width: 50%;
+        height: 500px;
+    }
+
+    .loca-div {
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+    .icon-text {
+        font-size: 11px;
+    }
+
+    .s4-text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:999px) {
+    .middle-container {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width:860px) {
+    .sun img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        font-size: 200%;
+        margin-right: 3%;
+    }
+
+    .btn-container {
+        padding-bottom: 5%;
+    }
+
+    .s4-para-tag {
+        padding-top: 5%;
+        font-size: 11px;
+    }
+
+    .middle-container {
+        height: 400px;
+    }
+
+    .s4-inner-image {
+        width: 34%;
+        height: 100%;
+    }
+
+    .loca-pin {
+        width: 20px;
+        height: 20px;
+    }
+
+    .loca-div {
+        font-size: 11px;
+        margin-top: 0;
+    }
+
+    .icon-text {
+        font-size: 9px;
+    }
+
+    .s4-text {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .middle-container {
+        height: 350px;
+    }
+
+    .s4-inner-image {
+        width: 34%;
+        height: 85%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .s5-div {
+        height: 300px;
+        background-position:30% 25%;
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .middle-container {
+        height: 87%;
+        overflow: hidden;
+    }
+
+    .s4-inner-image {
+        width: 32%;
+    }
+
+    .sun {
+        padding: 0;
+        margin: 0;
+    }
+
+    .sun img {
+        width: 19px;
+        height: 19px;
+    }
+
+    .btn-container {
+        padding-bottom: 0;
+    }
+
+    .left-arrow,
+    .right-arrow {
+        font-size: 180%;
+        margin: 0;
+    }
+
+    .s4-para-tag {
+        padding-top: 1%;
+        font-size: 10px;
+    }
+
+    .loca-pin {
+        width: 19px;
+        height: 19px;
+    }
+
+    .loca-div {
+        font-size: 10px;
+    }
+
+    .icon-text {
+        font-size: 9px;
+    }
+
+    .s4-text {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .loca-div {
+        display: none;
+    }
+
+    .s4-para-tag {
+        padding: 1% 0;
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .s4-text {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .a-section-container{
+        flex-direction: column;
+    }
+
+
 }

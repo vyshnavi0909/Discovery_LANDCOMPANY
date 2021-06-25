@@ -6,4 +6,4 @@ function scrollingFunc(item){
   return string;
 }
 
-document.getElementById("scroller-content").innerHTML = images.map(scrollingFunc);
+document.getElementById("scroller-content").innerHTML = images.map(scrollingFunc).join("");
